@@ -1,0 +1,78 @@
+﻿# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 模型权重和大数据文件
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.hdf5
+*.pkl
+*.ckpt
+*.bin
+*.safetensors
+
+# 数据集
+datasets/
+VOCdevkit/
+data/
+train/
+val/
+test/
+
+# 训练日志和输出
+logs/
+runs/
+wandb/
+results/
+map_out/
+miou_out/
+detection-results/
+
+# 大型安装包
+*.tar.gz
+*.tar
+*.zip
+*.rar
+*.7z
+
+# JDK / Neo4j 安装包
+jdk-*
+neo4j-*
+
+# TensorBoard
+events.out.tfevents.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 副本文件
+*副本*
+
